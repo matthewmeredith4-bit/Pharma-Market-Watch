@@ -72,7 +72,8 @@ if len(found_articles) > 0:
         print(f"  > Started database with {len(final_df)} articles.")
 
     final_df.to_csv(filename, index=False)
-    print("✅ Database updated successfully.")
+    print("Updated successfully.")
 
 else:
+
     print("No relevant news found today.")
